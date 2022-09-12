@@ -231,6 +231,7 @@ button:hover {
 #noses {
     padding-top: 200px;
     font-size: xx-large;
+    position: relative;
 }
 
 .rodape{
@@ -340,4 +341,15 @@ bottom: 200px;
     position: relative;
     top: 250px;
     right: 9em;
+    border-radius: 3px;
+}
+
+.btn-exibir {
+    font-size: 60px;
+    color: #8911FA;
+}
+
+.texto-escondido {
+    font-size: 0px;
+    transition: 0.5s;
 }

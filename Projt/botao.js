@@ -21,9 +21,30 @@ function solicitarAjuda() {
 //    window.open("https://razor.com.br/produtos/")
 //}
 
-botaoQuemSomosNos.onclick = function(){  //gustavo
+// gustavo
+var btnQuemSomosNos = document.getElementsByClassName('btn-exibir')[0];
+var textoEscondido = document.getElementsByClassName('texto-escondido')[0];
+var identificador = 0;
 
-}
+btnQuemSomosNos.addEventListener('click', function() {
+    if(identificador == 0) {
+        btnQuemSomosNos.classList.remove('fa-chevron-right');
+        btnQuemSomosNos.classList.add('fa-chevron-down');
+        identificador = 1;
+
+        textoEscondido.style.fontSize = "24px";
+    } else {
+        btnQuemSomosNos.classList.remove('fa-chevron-down');
+        btnQuemSomosNos.classList.add('fa-chevron-right');
+        identificador = 0;
+
+        textoEscondido.style.fontSize = "0px";
+    }
+
+
+});
+
+//
 
 botaoProdutoDestaque.onclick = function(){
     window.open("https://razor.com.br/produto/prodigy-xp-960g35/")
