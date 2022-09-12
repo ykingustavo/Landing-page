@@ -15,7 +15,7 @@ function cliqueEsquerdo() {
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
 
     clearInterval(temporizadorCarrossel);
-    temporizadorCarrossel = setInterval(cliqueDireito, 3000);
+    temporizadorCarrossel = setInterval(cliqueDireito, 10000);
 }
 
 function cliqueDireito() {
@@ -30,7 +30,7 @@ function cliqueDireito() {
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
 
     clearInterval(temporizadorCarrossel);
-    temporizadorCarrossel = setInterval(cliqueDireito, 3000);
+    temporizadorCarrossel = setInterval(cliqueDireito, 10000);
 }
 
-temporizadorCarrossel = setInterval(cliqueDireito, 3000);
+temporizadorCarrossel = setInterval(cliqueDireito, 10000);
