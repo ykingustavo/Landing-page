@@ -339,13 +339,16 @@ bottom: 200px;
     border: 0;
     background-color: transparent;
     position: relative;
-    top: 250px;
-    right: 9em;
     border-radius: 3px;
+    transition: 0.2s;
+}
+
+.arrow-btn:hover {
+    background-color: rgb(111,22,241);
 }
 
 .btn-exibir {
-    font-size: 60px;
+    font-size: 40px;
     color: #8911FA;
 }
 
