@@ -2,9 +2,11 @@ var carrossel = document.getElementsByClassName("carrossel")[0]
 var idCarrossel = 0;
 
 document.getElementsByClassName("img-carrossel")[0].classList.remove("esconder");
+document.getElementsByClassName("indicador-carrossel")[0].classList.add("fa-solid");
 
 function cliqueEsquerdo() {
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.add('esconder');
+    document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.remove("fa-solid");
 
     if(idCarrossel == 0) {
         idCarrossel = 3;
@@ -13,6 +15,7 @@ function cliqueEsquerdo() {
     }
 
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
+    document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.add("fa-solid");
 
     clearInterval(temporizadorCarrossel);
     temporizadorCarrossel = setInterval(cliqueDireito, 10000);
@@ -20,6 +23,7 @@ function cliqueEsquerdo() {
 
 function cliqueDireito() {
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.add('esconder');
+    document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.remove("fa-solid");
 
     if(idCarrossel == 3) {
         idCarrossel = 0;
@@ -28,6 +32,7 @@ function cliqueDireito() {
     }
 
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
+    document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.add("fa-solid");
 
     clearInterval(temporizadorCarrossel);
     temporizadorCarrossel = setInterval(cliqueDireito, 10000);
