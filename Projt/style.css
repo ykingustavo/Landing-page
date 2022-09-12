@@ -58,18 +58,17 @@ button:hover {
 }
 
 .corpo_1 {
-    width: 100%;
-    height: 440px;
-
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    margin: 50px auto;
     display: flex;
-
+    border: 2px solid purple;
+    padding: 20px 0;
 }
 
 .corpoBox_1 {
-    
     text-align: center;
-    width: 50%;
-
     align-items: center;
 
 }
@@ -89,7 +88,7 @@ button:hover {
 
     justify-content: center;
     
-
+    margin-left: 100px;
 }
 
 .descricao_2 {
@@ -126,14 +125,19 @@ button:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-.bt_orcamento {
+.p-btn {
+    text-align: center;
+}
 
+#orcamento-prodigy {
     background-color: #8911FA;
-    border-radius: 5px;
+    border-radius: 2px;
+    border: none;
     text-align: center;
     color: white;
     font-weight: bolder;
-
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
 
 .corpo_2 {
