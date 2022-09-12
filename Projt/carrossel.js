@@ -16,9 +16,6 @@ function cliqueEsquerdo() {
 
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
     document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.add("fa-solid");
-
-    clearInterval(temporizadorCarrossel);
-    temporizadorCarrossel = setInterval(cliqueDireito, 100000);
 }
 
 function cliqueDireito() {
@@ -33,9 +30,4 @@ function cliqueDireito() {
 
     document.getElementsByClassName("img-carrossel")[idCarrossel].classList.remove('esconder');
     document.getElementsByClassName("indicador-carrossel")[idCarrossel].classList.add("fa-solid");
-
-    clearInterval(temporizadorCarrossel);
-    temporizadorCarrossel = setInterval(cliqueDireito, 100000);
 }
-
-temporizadorCarrossel = setInterval(cliqueDireito, 100000);
