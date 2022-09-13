@@ -1,0 +1,14 @@
+.img-carrossel {
+    text-align: center;
+    display: inline-block;
+}
+
+.esconder {
+    display: none;
+}
+
+.indicadores-carrossel {
+    text-align: center;
+    font-size: 24px;
+    color: #9014fc
+}
