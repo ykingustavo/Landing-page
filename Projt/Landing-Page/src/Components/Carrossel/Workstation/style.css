@@ -1,0 +1,26 @@
+.img-carrossel {
+    text-align: center;
+    display: inline-block;
+}
+
+.esconder {
+    display: none;
+}
+
+.img-display{
+    border: solid #8911FA 5px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    padding: 10px;    
+}
+
+.desc{
+    border: 5px solid #8911FA;
+    position: relative;
+    left: 40em;
+    bottom: 330px;
+    border-radius: 15px;
+    display: flex;
+}

@@ -1,0 +1,11 @@
+.display{
+    display: flex;
+    align-content: space-between;
+    border: solid #8911FA 2px;
+    background-color: white;
+    height: 400px;
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
