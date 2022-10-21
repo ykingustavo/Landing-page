@@ -1,0 +1,12 @@
+.card-equipe{
+    width: 100%;
+    height: 1678px;
+    display: flex;
+    flex-direction: row;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,82 @@
+.rodape{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.caixa_1{
+    
+    width: 200px;
+    height: 100%;
+    justify-self: flex-start;
+    justify-content: space-evenly;
+   
+}
+
+.caixa_2{
+    
+    height: 100%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caixa_3{
+    
+    height: 100%;
+    width: 298px;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#razor_LTDA{
+    padding-top: 50px;
+}
+
+#icon_razor{
+    height: 40px;
+    width: auto;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#razor3{
+    margin: 25px;
+    width: 45px;
+    height: 52px;
+}
+
+.endr-razor{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.div-btn-ajuda{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn-ajuda {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn-ajuda:hover {
+    background-color: #555;
+}
+
+#atd-razor{
+    display: flex;
+    padding-top: 50px;
+}

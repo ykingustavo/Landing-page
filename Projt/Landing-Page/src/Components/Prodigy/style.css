@@ -1,0 +1,81 @@
+.prodigy {
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    border: 2px solid purple;
+    padding: 20px 0;
+}
+
+.corpoBox_1 {
+    text-align: center;
+    align-items: center;
+
+}
+
+.descricao_1 {
+    font-weight: bold;
+}
+
+.sp_1 {
+    font-weight: 1200;
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+}
+
+.corpoBox_2 {
+    width: 50%;
+    padding-top: 50px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.descricao_2 {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.descricao_3 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+.descricao_4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sp_2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.descricao_5 {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.descricao_6 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p-btn {
+    text-align: center;
+}
+
+#orcamento-prodigy {
+    background-color: #8911FA;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+}

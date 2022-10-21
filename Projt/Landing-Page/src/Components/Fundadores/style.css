@@ -1,0 +1,51 @@
+.corpo_3 {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.fundadores {
+    width: auto;
+    height: auto;
+
+}
+
+.nos {
+    background-color: rgb(182, 170, 194);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+#noses {
+    padding-top: 200px;
+    font-size: xx-large;
+    position: relative;
+    color: #8911fa
+}
+
+.texto-escondido {
+    font-size: 0px;
+    transition: 0.5s;
+}
+
+.arrow-btn{
+    border: 0;
+    background-color: transparent;
+    position: relative;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.arrow-btn:hover {
+    background-color: rgb(111,22,241);
+}
+
+.btn-exibir {
+    font-size: 40px;
+    color: #8911FA;
+}

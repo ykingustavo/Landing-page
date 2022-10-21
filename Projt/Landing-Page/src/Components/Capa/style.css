@@ -1,0 +1,14 @@
+.div-img_capa {
+    width: auto;
+    height: auto;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.img_capa {
+    width: auto;
+    height: auto;
+    height: 150%;
+    width: 100%;
+}
