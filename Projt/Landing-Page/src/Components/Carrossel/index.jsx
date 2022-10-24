@@ -2,6 +2,7 @@ import "./style.css";
 import { useState } from "react";
 import { useEffect } from "react";
 import Workstation from "./Workstation";
+import Indicadores from "./Indicadores";
 
 export default function Carrossel() {
     const [numCarrossel, setNumCarrossel] = useState(0);
@@ -22,9 +23,9 @@ export default function Carrossel() {
         }
     }
 
-    useEffect(() => {
+    /*useEffect(() => {
         console.log("Valor real state " + numCarrossel )
-    }, [numCarrossel])
+    }, [numCarrossel])*/
 
 
   return (
@@ -97,6 +98,8 @@ export default function Carrossel() {
 
       <button onClick={cliqueEsquerdo}>Esquerda</button>
       <button onClick={cliqueDireito}>Direita</button>
+
+      <Indicadores numAtual={numCarrossel}/>
     </div>
   );
 }
