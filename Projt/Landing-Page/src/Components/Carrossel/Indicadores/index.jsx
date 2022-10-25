@@ -14,7 +14,6 @@ export default function Indicadores({numAtual}) {
             {numAtual == 1 ? (<FontAwesomeIcon icon={faCircleSolid} className="indicador"/>) : (<FontAwesomeIcon icon={faCircle} className="indicador"/>)}
             {numAtual == 2 ? (<FontAwesomeIcon icon={faCircleSolid} className="indicador"/>) : (<FontAwesomeIcon icon={faCircle} className="indicador"/>)}
             {numAtual == 3 ? (<FontAwesomeIcon icon={faCircleSolid} className="indicador"/>) : (<FontAwesomeIcon icon={faCircle} className="indicador"/>)}
-            <button onClick={click}>a</button>
         </div>
     )
 }
