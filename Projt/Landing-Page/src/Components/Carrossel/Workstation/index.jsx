@@ -18,7 +18,8 @@ export default function Workstation({desc, img, id, numCarrossel}) {
               {desc.map((val, index) => (
                 <p key={index}>{val}</p>
               ))}
-              <button>SOLICITAR ORÇAMENTO</button>
+              <button className="orcamento"
+              onClick={() => (window.open("https://razor.com.br/produtos/"))}>Solicitar orçamento</button>
             </div>
           </div>
         </div>

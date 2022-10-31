@@ -27,3 +27,19 @@
     padding-right: 3px;
     padding-bottom: 5px;
 }
+
+.pc {
+    font-size: 15px;
+}
+
+.orcamento {
+    background-color: #8911FA;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+}

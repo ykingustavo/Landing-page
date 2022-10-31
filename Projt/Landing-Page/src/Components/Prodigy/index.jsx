@@ -5,7 +5,7 @@ export default function Prodigy() {
         <div className="prodigy">
             <div className="corpoBox_1">
                 <p className="descricao_1">
-                    Workstation Pro
+                    Workstation Pro 
                     <span className="sp_1">PRODIGY</span>
                 </p>
                 <img src="src/assets/img/prodigy-galeria-2.jpg"/>
