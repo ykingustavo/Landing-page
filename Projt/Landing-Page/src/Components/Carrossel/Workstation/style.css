@@ -42,4 +42,9 @@
     text-transform: uppercase;
     padding: 10px 20px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.orcamento:hover {
+    background: #5E0CAB;
 }

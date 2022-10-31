@@ -33,7 +33,7 @@ export default function Prodigy() {
                 <p className="descricao_6">DDR4 até 3200MHz</p>
 
                 <p className="p-btn">
-                    <button id="orcamento-prodigy"
+                    <button className="orcamento-prodigy"
                     onClick={() => (window.open("https://razor.com.br/produtos/"))}>Solicitar orçamento</button>
                 </p>
             </div>

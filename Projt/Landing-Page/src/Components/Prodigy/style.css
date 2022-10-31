@@ -68,7 +68,7 @@
     text-align: center;
 }
 
-#orcamento-prodigy {
+.orcamento-prodigy {
     background-color: #8911FA;
     border-radius: 2px;
     border: none;
@@ -78,4 +78,9 @@
     text-transform: uppercase;
     padding: 15px 25px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.orcamento-prodigy:hover {
+    background: #5E0CAB;
 }

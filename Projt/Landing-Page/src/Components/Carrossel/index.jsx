@@ -29,7 +29,7 @@ export default function Carrossel() {
 
 
   return (
-    <div className="cont">
+    <div className="cont" id="carrossel">
       <div className="display carrossel">
         <Workstation 
         desc={["Workstation PRO",

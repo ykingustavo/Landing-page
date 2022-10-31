@@ -2,7 +2,7 @@ import './style.css'
 
 export default function Cadastro() {
     return(
-        <div className="form-div">
+        <div className="form-div" id="form-cadastro">
             <form className="form-cadastro">
                 <div className="form-div-titulo">
                     <h2 className="form-titulo">Cadastro/Login</h2>
