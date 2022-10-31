@@ -4,9 +4,3 @@
     display: flex;
     flex-direction: row;
 }
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}

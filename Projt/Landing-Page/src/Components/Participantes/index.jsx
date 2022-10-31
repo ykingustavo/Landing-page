@@ -4,7 +4,7 @@ import Participante from "./Participante";
 export default function Participantes() {
   return (
     <div className="card-equipe">
-      <div className="row">
+      {/*<div className="row">*/}
         <Participante
         imagem="src/assets/img/Gustavo.jpeg"
         nome="Gustavo Bonemann"
@@ -40,7 +40,7 @@ export default function Participantes() {
         funcao="Designer do projeto"
         email="wesleyhssgames@gmail.com"
         contato="https://www.linkedin.com/in/wesley-henrique-silva-da-silva-71bb5224b/"/>
-      </div>
+      {/*</div>*/}
     </div>
   );
 }
