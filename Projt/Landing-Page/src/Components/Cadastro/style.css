@@ -1,0 +1,37 @@
+.form-div {
+    display: block;
+    text-align: center;
+}
+
+.form-cadastro {
+    background: #d9d9d9;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 0 15px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+
+.form-div-titulo {
+    padding: 0;
+    margin: 0;
+    background: #9014fc;
+    color: white;
+}
+
+.form-titulo {
+    margin-top: 0;
+    padding: 0 250px 0;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
