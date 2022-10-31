@@ -84,11 +84,11 @@ export default function Carrossel() {
         <Workstation
         desc={["Desktop LEAN",
         "A PARTIR DE R$3.647,64",
-        "",
+        " ",
         "Até 4.3GHz Até 4 núcleos Intel",
-        "",
+        " ",
         "Core i3-12100 Placa de vídeo integrada Intel UHD",
-        "",
+        " ",
         "Graphics Até 64GB",
         "de RAM DDR4 até 3200MHz"]}
         img={"src/assets/img/desktop_lean.jpg"}

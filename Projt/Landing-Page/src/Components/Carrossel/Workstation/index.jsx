@@ -18,6 +18,7 @@ export default function Workstation({desc, img, id, numCarrossel}) {
               {desc.map((val, index) => (
                 <p key={index}>{val}</p>
               ))}
+              <button>SOLICITAR ORÇAMENTO</button>
             </div>
           </div>
         </div>

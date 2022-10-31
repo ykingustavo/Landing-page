@@ -19,8 +19,11 @@
 .desc{
     border: 5px solid #8911FA;
     position: relative;
-    left: 40em;
+    left: 20em;
     bottom: 330px;
     border-radius: 15px;
-    display: flex;
+    display: inline-flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
 }
