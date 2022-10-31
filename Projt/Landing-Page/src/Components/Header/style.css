@@ -15,8 +15,7 @@
 }
 
 .botoes {
-    position: absolute;
-    left: 70%;
+    margin-left: 36.8em;
     justify-content: space-between;
     padding: 20px;
 }
