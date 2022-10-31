@@ -18,7 +18,7 @@ export default function Fundadores() {
     
     return(
         <>
-            <div className="corpo_3">
+            <div className="corpo-fundadores">
             <img className="fundadores" src="src/assets/img/razor-fundadores2.jpeg" alt="" />
             <div className="nos">
             <p id="noses">
