@@ -100,8 +100,8 @@ export default function Carrossel() {
       <IconContext.Provider value={{ color: "#8911FA", size: "35px"}}>
       <div className = "botoesCarrossel">
       
-      <div onClick={cliqueEsquerdo}><AiOutlineArrowLeft/></div>
-      <div onClick={cliqueDireito}><AiOutlineArrowRight/></div>
+      <div className="btn-carrossel" onClick={cliqueEsquerdo}><AiOutlineArrowLeft/></div>
+      <div className="btn-carrossel" onClick={cliqueDireito}><AiOutlineArrowRight/></div>
       </div>
       </IconContext.Provider>
 

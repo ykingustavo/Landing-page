@@ -13,6 +13,10 @@
     border: 0;
 }
 
+.btn-carrossel:hover {
+    cursor: pointer;
+}
+
 .display {
     display: flex;
     align-content: space-between;
