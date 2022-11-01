@@ -2,6 +2,17 @@
     justify-content: center;
 }
 
+.botoesCarrossel {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
 .display {
     display: flex;
     align-content: space-between;

@@ -1,3 +1,5 @@
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai"
+import { IconContext } from "react-icons";
 import "./style.css";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -95,9 +97,13 @@ export default function Carrossel() {
         id={3}
         numCarrossel={numCarrossel}/>
       </div>
-
-      <button onClick={cliqueEsquerdo}>Esquerda</button>
-      <button onClick={cliqueDireito}>Direita</button>
+      <IconContext.Provider value={{ color: "#8911FA", size: "35px"}}>
+      <div className = "botoesCarrossel">
+      
+      <div onClick={cliqueEsquerdo}><AiOutlineArrowLeft/></div>
+      <div onClick={cliqueDireito}><AiOutlineArrowRight/></div>
+      </div>
+      </IconContext.Provider>
 
       <Indicadores numAtual={numCarrossel}/>
     </div>
